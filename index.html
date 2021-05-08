@@ -7,36 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
 
     <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.css" rel="stylesheet" />
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script>
+
     <title>My Portfolio | Disnat Jeffar Manurung</title>
 </head>
 
 <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm mb-5 fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm mb-5 fixed-top top" id="navbar">
         <div class="container">
-            <a class="navbar-brand" href="#home">Jeffar Manurung</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
+            <a class="navbar-brand" href="#home">Disnat Jeffar Manurung</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse row " id="navbarNav">
+                <ul class="navbar-nav justify-content-end ms-auto text-center">
+                    <li class="nav-item col col-md-1">
                         <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item col col-md-1">
                         <a class="nav-link" href="#about">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item col col-md-1">
+                        <a class="nav-link" href="#technology">Technology</a>
+                    </li>
+                    <li class="nav-item col col-md-1">
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item col col-md-1">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -48,16 +64,16 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
         <img src="img/jeffar.png" alt="Jeffar Manurung" width="250" class="rounded-circle img-thumbnail shadow-lg" />
-        <h1 class="display-4 pt-2">Disnat Jeffar Manurung</h1>
-        <p class="lead">Student | Programmer</p>
+        <h1 class="display-4 pt-2 font-weight-bold">DISNAT JEFFAR MANURUNG</h1>
+        <p class="lead my-4">STUDENT | PROGRAMMER | GAMER</p>
+        <a href="https://drive.google.com/drive/folders/1EoTqVAJX-m12XNJXqHozNqcXjmTM1GtB?usp=sharing"
+            class="btn btn-dark me-1" target="_blank">DOWNLOAD RESUME <i class="bi bi-download"></i></a>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,224L34.3,197.3C68.6,171,137,117,206,122.7C274.3,128,343,192,411,208C480,224,549,192,617,192C685.7,192,754,224,823,245.3C891.4,267,960,277,1029,256C1097.1,235,1166,181,1234,165.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-        ></path>
-      </svg>
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,224L34.3,197.3C68.6,171,137,117,206,122.7C274.3,128,343,192,411,208C480,224,549,192,617,192C685.7,192,754,224,823,245.3C891.4,267,960,277,1029,256C1097.1,235,1166,181,1234,165.3C1302.9,149,1371,171,1406,181.3L1440,192L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- Akhir Jumbotron -->
 
@@ -66,43 +82,230 @@
         <div class="container">
             <div class="row text-center mb-5">
                 <div class="col">
-                    <h2>About Me</h2>
+                    <h2 class="border-bottom">ABOUT ME</h2>
                 </div>
             </div>
-            <div class="row justify-content-center fs-5 text-center">
-                <div class="col-md-4">
-                    <p>ipsum dolor sit, amet consectetur adipisicing elit. Itaque libero deserunt ipsum aut perspiciatis veritatis nulla qui. Quidem, vel labore?</p>
+            <div class="row justify-content-center fs-5">
+                <div class="col-md-4 my-3">
+
+                    <img src="img/jeffar3.jpg" class="rounded img-fluid  hover-shadow" alt="Image">
+
                 </div>
-                <div class="col-md-4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quod nisi eaque ad beatae accusantium autem fugit laudantium obcaecati aliquam! Commodi repellendus et maiores quasi.</p>
+                <div class="col-md-6 m-3 ">
+
+                    <div class="row gap-4">
+                        <div class="row justify-content-around">
+                            <div class="col-md-6">Name</div>
+                            <div class="col-md-6">Disnat Jeffar Manurung</div>
+                        </div>
+                        <div class="row justify-content-around">
+                            <div class="col-md-6">Job</div>
+                            <div class="col-md-6">Student</div>
+                        </div>
+                        <div class="row justify-content-around">
+                            <div class="col-md-6">Major</div>
+                            <div class="col-md-6">Computer Science</div>
+                        </div>
+                        <div class="row justify-content-around">
+                            <div class="col-md-6">Interest</div>
+                            <div class="col-md-6">Tech, Science</div>
+                        </div>
+                        <div class="row justify-content-around">
+                            <div class="col-md-6">Hobby</div>
+                            <div class="col-md-6">Watch Movie</div>
+                        </div>
+                        <div class="row justify-content-around">
+                            <div class="col-md-6">Motto Professional</div>
+                            <div class="col-md-6">
+                                <figcaption>
+                                    If you are born poor its not your mistake, But if you die poor its
+                                    your mistake.<cite title="Source Title">-Bill Gates</cite>
+                                </figcaption>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-3">
+                    <div class="card  shadow-5">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/github.jpg" class="img-fluid" />
+                            <a href="https://github.com/Jeffar7" target="_blank">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <a href="https://github.com/Jeffar7" target="_blank" class="btn btn-light">Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-5">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/linkedin.jpg" class="img-fluid" />
+                            <a href="https://www.linkedin.com/in/disnat-jeffar-manurung-955428174/" target="_blank">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <a href="https://www.linkedin.com/in/disnat-jeffar-manurung-955428174/" target="_blank"
+                                class="btn btn-light">LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-5">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/youtube.jpg" class="img-fluid" />
+                            <a href="https://www.youtube.com/channel/UCnlCYYQhNy8_WLjcO0z6mJw" target="_blank">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <a href="https://www.youtube.com/channel/UCnlCYYQhNy8_WLjcO0z6mJw" target="_blank"
+                                class="btn btn-light">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-5">
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <img src="img/instagram3.jpg" class="img-fluid" />
+                            <a href="https://www.instagram.com/manroeee7/" target="_blank">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                            </a>
+                        </div>
+                        <div class="card-body text-center">
+                            <a href="https://www.instagram.com/manroeee7/" target="_blank"
+                                class="btn btn-light">Instagram</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#f9f6ef"
-          fill-opacity="1"
-          d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
+            <path fill="#f9f6ef" fill-opacity="1"
+                d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- Akhir About -->
+
+    <!-- Technology -->
+    <section id="technology">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2 class="border-bottom">TECHNOLOGY</h2>
+                </div>
+            </div>
+            <!-- LANGUAGES -->
+
+            <div class="row mt-5 mb-3">
+                <div class="col">
+                    <h3>LANGUAGES</h3>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mb-3">
+                        <div class="shadow-1-strong">
+                            <div class="bg-image hover-overlay ripple bg-light hover-shadow"
+                                data-mdb-ripple-color="light">
+                                <img src="img/languages/php.png" class="img-fluid" />
+                                <h3 class="card-title text-center mt-3">PHP</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="shadow-1-strong">
+                            <div class="bg-image hover-overlay ripple bg-light hover-shadow"
+                                data-mdb-ripple-color="light">
+                                <img src="img/languages/javascript.png" class="img-fluid" />
+                                <h3 class="card-title text-center mt-3">JAVASCRIPT</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="shadow-1-strong">
+                            <div class="bg-image hover-overlay ripple bg-light hover-shadow"
+                                data-mdb-ripple-color="light">
+                                <img src="img/languages/css3.png" class="img-fluid" />
+                                <h3 class="card-title text-center mt-3">CSS</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="shadow-1-strong">
+                            <div class="bg-image hover-overlay ripple bg-light hover-shadow"
+                                data-mdb-ripple-color="light">
+                                <img src="img/languages/html.png" class="img-fluid" />
+                                <h3 class="card-title text-center mt-3">HTML</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END LANGUAGES -->
+
+            <!-- FRAMEWORKS -->
+
+            <div class="row mt-5 mb-3">
+                <div class="col">
+                    <h3>FRAMEWORKS</h3>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mb-3">
+                        <div class="shadow-1-strong">
+                            <div class="bg-image hover-overlay ripple bg-light hover-shadow"
+                                data-mdb-ripple-color="light">
+                                <img src="img/languages/laravel.png" class="img-fluid " />
+
+                                <h3 class="card-title text-center mt-3">LARAVEL</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <div class="shadow-1-strong">
+                            <div class="bg-image hover-overlay ripple bg-light hover-shadow"
+                                data-mdb-ripple-color="light">
+                                <img src="img/languages/bootstrap.png" class="img-fluid" />
+                                <h3 class="card-title text-center mt-3">BOOTSTRAP</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ENDFRAMEWORKS -->
+        </div>
+    </section>
+    <!-- Akhir Technology -->
 
     <!-- Projetcs -->
     <section id="projects">
         <div class="container">
             <div class="row text-center mb-3">
                 <div class="col">
-                    <h2>My Projects</h2>
+                    <h2 class="border-bottom">MY PROJECTS</h2>
                 </div>
             </div>
-            <div class="row-  justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
                     <div class="card">
                         <img src="projects/1.jpg" class="card-img-top" alt="Project 1" />
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -110,7 +313,8 @@
                     <div class="card">
                         <img src="projects/2.jpg" class="card-img-top" alt="Project 2" />
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -118,7 +322,8 @@
                     <div class="card">
                         <img src="projects/3.jpg" class="card-img-top" alt="Project 3" />
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -126,7 +331,8 @@
                     <div class="card">
                         <img src="projects/4.jpg" class="card-img-top" alt="Project 4" />
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -134,7 +340,8 @@
                     <div class="card">
                         <img src="projects/5.jpg" class="card-img-top" alt="Project 5" />
                         <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
                         </div>
                     </div>
                 </div>
@@ -142,12 +349,10 @@
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,192L18.5,208C36.9,224,74,256,111,250.7C147.7,245,185,203,222,160C258.5,117,295,75,332,64C369.2,53,406,75,443,117.3C480,160,517,224,554,224C590.8,224,628,160,665,154.7C701.5,149,738,203,775,192C812.3,181,849,107,886,101.3C923.1,96,960,160,997,181.3C1033.8,203,1071,181,1108,192C1144.6,203,1182,245,1218,266.7C1255.4,288,1292,288,1329,288C1366.2,288,1403,288,1422,288L1440,288L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z"
-        ></path>
-      </svg>
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,192L18.5,208C36.9,224,74,256,111,250.7C147.7,245,185,203,222,160C258.5,117,295,75,332,64C369.2,53,406,75,443,117.3C480,160,517,224,554,224C590.8,224,628,160,665,154.7C701.5,149,738,203,775,192C812.3,181,849,107,886,101.3C923.1,96,960,160,997,181.3C1033.8,203,1071,181,1108,192C1144.6,203,1182,245,1218,266.7C1255.4,288,1292,288,1329,288C1366.2,288,1403,288,1422,288L1440,288L1440,320L1421.5,320C1403.1,320,1366,320,1329,320C1292.3,320,1255,320,1218,320C1181.5,320,1145,320,1108,320C1070.8,320,1034,320,997,320C960,320,923,320,886,320C849.2,320,812,320,775,320C738.5,320,702,320,665,320C627.7,320,591,320,554,320C516.9,320,480,320,443,320C406.2,320,369,320,332,320C295.4,320,258,320,222,320C184.6,320,148,320,111,320C73.8,320,37,320,18,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- Akhir Projetcs -->
 
@@ -181,12 +386,10 @@
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#f9f6ef"
-          fill-opacity="1"
-          d="M0,128L26.7,128C53.3,128,107,128,160,154.7C213.3,181,267,235,320,240C373.3,245,427,203,480,160C533.3,117,587,75,640,85.3C693.3,96,747,160,800,165.3C853.3,171,907,117,960,101.3C1013.3,85,1067,107,1120,138.7C1173.3,171,1227,213,1280,202.7C1333.3,192,1387,128,1413,96L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-        ></path>
-      </svg>
+            <path fill="#f9f6ef" fill-opacity="1"
+                d="M0,128L26.7,128C53.3,128,107,128,160,154.7C213.3,181,267,235,320,240C373.3,245,427,203,480,160C533.3,117,587,75,640,85.3C693.3,96,747,160,800,165.3C853.3,171,907,117,960,101.3C1013.3,85,1067,107,1120,138.7C1173.3,171,1227,213,1280,202.7C1333.3,192,1387,128,1413,96L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z">
+            </path>
+        </svg>
     </section>
     <!-- Akhir Contact -->
 
@@ -196,7 +399,8 @@
             <div class="row rows-col-2 justify-content-center fs-5 text-center">
                 <div class="col-md-4 mb-3">
                     <h2>Jeffar Manurung</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A asperiores nihil excepturi ea, ab corrupti laborum accusantium libero non maiores consectetur facilis illum sequi unde?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A asperiores nihil excepturi ea, ab
+                        corrupti laborum accusantium libero non maiores consectetur facilis illum sequi unde?</p>
                 </div>
                 <div class="col-md-4 mb-3">
                     <h2>My Contacts</h2>
@@ -207,15 +411,18 @@
                         </li>
                         <li class="nav-link link-primary">
                             <i class="bi bi-linkedin"></i>
-                            <a href="https://www.linkedin.com/in/disnat-jeffar-manurung-955428174/" class="link-light" id="linkedit">LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/disnat-jeffar-manurung-955428174/" class="link-light"
+                                id="linkedit">LinkedIn</a>
                         </li>
                         <li class="nav-link link-danger">
                             <i class="bi bi-youtube"></i>
-                            <a href="https://www.youtube.com/channel/UCnlCYYQhNy8_WLjcO0z6mJw" class="link-light" id="linkedit">Youtube</a>
+                            <a href="https://www.youtube.com/channel/UCnlCYYQhNy8_WLjcO0z6mJw" class="link-light"
+                                id="linkedit">Youtube</a>
                         </li>
                         <li class="nav-link link-warning">
                             <i class="bi bi-instagram"></i>
-                            <a href="https://www.instagram.com/manroeee7/" class="link-light" id="linkedit">Instagram</a>
+                            <a href="https://www.instagram.com/manroeee7/" class="link-light"
+                                id="linkedit">Instagram</a>
                         </li>
                     </ul>
                 </div>
@@ -244,8 +451,9 @@
     </button>
 
     <!-- JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+        </script>
     <!-- Akhir JS -->
     <script>
         function scrollToTop() {
@@ -256,6 +464,10 @@
             }
         };
     </script>
+    <script src="/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/lightbox.min.js"></script>
 </body>
 
 </html>

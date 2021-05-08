@@ -3,7 +3,11 @@
     background-color: #f9f6ef;
 }
 
-#projects {
+/* #projects {
+    background-color: #f9f6ef;
+} */
+
+#technology {
     background-color: #f9f6ef;
 }
 
@@ -13,7 +17,18 @@ section {
 
 #navbar {
     background-color: #1f2020;
+    opacity: 0.9;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    padding: 0 30px;
+    transition: 0.5s;
 }
+
+.navbar.top {
+    background: transparent;
+}
+
 
 #backgroundblack {
     background-color: #1f2020;
@@ -34,4 +49,8 @@ section {
 
 .scrolltotop:hover {
     border-radius: 50%;
+}
+
+.collapse a:hover{
+    border-bottom: #f9f6ef 2px solid;
 }
